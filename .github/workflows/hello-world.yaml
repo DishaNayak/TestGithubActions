@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  name: Print Hello World
-  runs-on: ubuntu-latest
-  steps:
-    - name: Print Hello World
-      shell: bash
-      run: echo "Hello World"
+  print-hello-id:
+    name: Print Hello World
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        shell: bash
+        run: echo "Hello World"
