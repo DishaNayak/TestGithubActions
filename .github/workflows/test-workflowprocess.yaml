@@ -1,7 +1,7 @@
 name : Workflow Process
 
 on:
-    workflow_call:
+  workflow_call:
     inputs:
       username:
       description: 'Username has been entered'
@@ -13,7 +13,7 @@ jobs:
   username id:
     runs-on: ubuntu-latest
   steps:
-    -name : Display username
-    run: echo "The username is Test."
+    - name : Display username
+      run: echo "The username is Test."
 
   
