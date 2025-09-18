@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     name: create workflow
     steps:
-      name: run create workflow
-      run: echo "This is the initial commit."
+      - name: run create workflow
+        run: echo "This is the initial commit."
