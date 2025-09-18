@@ -1,19 +1,19 @@
-name : Workflow Process
+name: Workflow Process
 
 on:
   workflow_call:
     inputs:
       username:
-      description: 'Username has been entered'
-      default: Test User
-      required : false
-      type : string
+        description: 'Username has been entered'
+        default: Test User
+        required: false
+        type: string
 
 jobs:
-  username id:
+  username-id:
     runs-on: ubuntu-latest
-  steps:
-    - name : Display username
-      run: echo "The username is Test."
+    steps:
+      - name : Display username
+        run: echo "The username is Test."
 
   
