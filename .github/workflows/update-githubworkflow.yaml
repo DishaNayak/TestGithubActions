@@ -1,0 +1,12 @@
+name: Update Github workflow
+
+on :
+  workflow_dispatch:
+
+jobs:
+  update-github-id:
+    runs-on: ubuntu-latest
+    name: create workflow
+    steps:
+      - name: run create workflow
+        run: echo "This is the initial commit."
